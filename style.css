@@ -85,7 +85,7 @@ body main .left_side p {
 }
 body main .right_side {
   margin: 0 3%;
-  padding: 15vh 0;
+  padding: 20vh 0;
   width: 65%;
   height: 100vh;
 }
@@ -177,4 +177,85 @@ body .p_projet div img {
 body .p_projet p {
   width: 65%;
   margin: 5vh auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .icon {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 10px !important;
+    margin: 10px !important;
+  }
+  .icon a img {
+    height: 6vh !important;
+    width: auto !important;
+  }
+  .top_page {
+    flex-direction: column;
+  }
+  .top_page .title h1 {
+    font-size: 50px !important;
+  }
+  .top_page .title h3 {
+    font-size: 30px !important;
+  }
+  .top_page div {
+    margin: 0 10px !important;
+  }
+  .top_page div img {
+    height: 400px !important;
+  }
+  .menu {
+    position: static !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .menu div {
+    width: 80% !important;
+    margin: 2vh auto;
+  }
+  .menu div a {
+    font-size: 30px !important;
+  }
+  main {
+    flex-direction: column;
+  }
+  main section {
+    width: 80% !important;
+    margin: 0 auto !important;
+    padding: 5vh 0 !important;
+    height: auto !important;
+  }
+  main .right_side h2 {
+    font-size: 40px !important;
+  }
+  main .right_side p {
+    font-size: 15px !important;
+  }
+  .first_row a img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  body .competences_section .list {
+    margin: 3vh 10% !important;
+  }
+  section div h2 {
+    font-size: 40px !important;
+  }
+  section .projets {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  }
+  section .projets section {
+    height: auto !important;
+  }
+  body .p_projet div img {
+    width: 90% !important;
+    height: auto !important;
+  }
+  body .p_projet p {
+    width: 90%;
+    margin: 3vh auto;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

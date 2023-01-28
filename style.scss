@@ -113,7 +113,7 @@ body{
 
         .right_side{
             margin: 0 3%;
-            padding: 15vh 0;
+            padding: 20vh 0;
             width: 65%;
             height: 100vh;
 
@@ -258,4 +258,173 @@ body{
             margin: 5vh auto;
         }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//------------------- Responsive
+
+@media only screen and (max-width: 800px) {
+    .icon{
+        position: sticky !important;
+        top: 10px !important;
+        margin: 10px !important;
+
+        a{
+            img{
+                height: 6vh !important;
+                width: auto !important;
+            }
+        }
+    }
+
+
+
+
+    //------------------- index
+
+    .top_page{
+        flex-direction: column;
+
+        .title{
+            h1{
+                font-size: 50px !important;
+            }
+            
+            h3{
+                font-size: 30px !important;
+            }
+        }
+
+        div{
+            margin: 0 10px !important;
+
+            img{
+                height: 400px !important;
+            }
+        }
+    }
+
+    .menu{
+        position: static !important;
+        flex-direction: column !important;
+        width: 100%;
+
+        div{
+            width: 80% !important;
+            margin: 2vh auto;
+
+            a{
+                font-size: 30px !important;
+            }
+        }
+    }
+
+
+
+
+
+    //------------------- a props
+
+    main{
+        flex-direction: column;
+
+        section{
+            width: 80% !important;
+            margin: 0 auto !important;
+            padding: 5vh 0 !important;
+            height: auto !important;
+        }
+
+        .right_side{
+            h2{
+                font-size: 40px !important;
+            }
+
+            p{
+                font-size: 15px !important;
+            }
+        }
+    }
+
+
+
+
+    //------------------- Cometences
+    .first_row{
+        a{
+            img{
+                height: 50px !important;
+                width: 50px !important;
+            }
+        }
+    }
+
+body .competences_section .list{
+    margin: 3vh 10% !important;
+}
+
+
+
+    //------------------- Projets
+
+    section{
+        div{
+
+            h2{
+                font-size: 40px !important;
+            }
+        }
+
+        .projets{
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+
+            section{
+                height: auto !important;
+            }
+        }
+    }
+
+
+
+
+
+    //------------------- Pages de projets
+
+    body{
+
+        .p_projet{
+            div{
+                img{
+                    width: 90% !important;
+                    height: auto !important;
+                }
+            }
+
+            p{
+                width: 90%;
+                margin: 3vh auto;
+                font-size: 15px;
+            }
+        }
+    }
+
+
+
+
 }
